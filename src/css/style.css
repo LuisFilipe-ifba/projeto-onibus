@@ -1,0 +1,167 @@
+body{
+    background-color: #F8FAFC;
+    color: #1F2937;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+    nav#menu ul {
+        flex-direction: column;
+    }
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px){
+    body {
+        font-size: 20px;
+    }
+}
+
+nav#menu a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0px 10px;
+    border: 8px;
+}
+
+nav#menu{
+    background-color: #1E3A5F;
+    padding:  10px;
+    outline: 1px solid black;
+    border: 1px solid black;
+
+}
+
+header{
+    background-color: #FBBF24;
+    padding: 24px 20px;
+    border: 1px solid black;
+    margin: 0px ;
+    text-align: center;
+    outline: 1px solid black;
+    
+}
+
+main{
+    padding: 10px 20px;
+    background-color: #F8FAFC;
+    outline: 1px solid black;
+    border: 1px solid black;
+}
+
+nav#menu ul{
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.col-12, .col-md-4, .col-lg-2{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #1E3A5F;
+}
+
+nav#menu ul li{
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #1E3A5F;
+}
+nav#menu ul li:hover{
+    background-color: #2563EB;
+    transition: background-color 0.2s ease;
+}
+
+section{
+    background-color: #F8FAFC;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+button#confirmar{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #FBBF24;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
+}
+
+section#login{
+    background-color: #FBBF24;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+div#formulario{
+    background-color: #F8FAFC;
+    padding: 10px 20px;
+    outline: 1px solid black;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input[type="submit"]{
+    background-color: #2563EB;
+    color: white;
+    outline: 1px solid black;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+form input[type="reset"]{
+    background-color: #FBBF24;
+    outline: 1px solid black;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+th,  td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th{
+    background-color: #1E3A5F;
+    color: white;
+}
