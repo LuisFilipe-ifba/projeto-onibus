@@ -3,7 +3,7 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="https://github.com/LuisFilipe-ifba/novo-projeto">
+          <a href="https://github.com/LuisFilipe-ifba/projeto-onibus.git">
             Repositorio GitHub
           </a>
         </li>
